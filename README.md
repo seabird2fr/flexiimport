@@ -1,2 +1,4 @@
 # flexiimport
-An import export component for flexicontent original code by Netassopro
+An import export component for flexicontent original code by Netassopro offer for Free
+
+

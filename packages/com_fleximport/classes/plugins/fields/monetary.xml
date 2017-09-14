@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="fleximport_field">
+	<name>Monetary</name>
+	<author>NetAssoPro</author>
+	<creationDate>November 2016</creationDate>
+	<copyright>(C) 2008-2016 NetAssopro</copyright>
+	<license>Free</license>
+	<authorEmail>contact@netassopro.com</authorEmail>
+	<authorUrl>extensions.netassopro.com</authorUrl>
+	<version>2.0</version>
+	<description>Monetary field plugin model for flexIMPORT</description>
+	<form>
+		<fields name="params">
+			<fieldset name="fleximport">
+		  		<field name="currency_position" default="after" type="list" label="COM_FLEXIMPORT_FIELD_MONETARY_POSITION" description="COM_FLEXIMPORT_FIELD_MONETARY_POSITION_DESC">
+						<option value="before">COM_FLEXIMPORT_FIELD_MONETARY_POSITION_BEFORE</option>
+						<option value="after">COM_FLEXIMPORT_FIELD_MONETARY_POSITION_AFTER</option>
+				</field>
+		  		<field name="currency_symbol" type="text" default="€" label="COM_FLEXIMPORT_FIELD_MONETARY_SYMBOL" description="COM_FLEXIMPORT_FIELD_MONETARY_SYMBOL_DESC" />
+		  		<field name="decimal" type="integer" default="2" first="0" step="1" last="10" label="COM_FLEXIMPORT_FIELD_MONETARY_DECIMAL" description="COM_FLEXIMPORT_FIELD_MONETARY_DECIMAL_DESC" />
+		  		<field name="decimal_separator" type="text" default="." label="COM_FLEXIMPORT_FIELD_MONETARY_DECIMAL_SEPARATOR" description="COM_FLEXIMPORT_FIELD_MONETARY_DECIMAL_SEPARATOR" />
+		  		<field name="thousand_separator" type="text" default=""  label="COM_FLEXIMPORT_FIELD_MONETARY_THOUSAND_SEPARATOR" description="COM_FLEXIMPORT_FIELD_MONETARY_THOUSAND_SEPARATOR_DESC" />
+		  		<field name="integer_convert" type="integer" default="0" first="0" step="1" last="10" label="COM_FLEXIMPORT_FIELD_MONETARY_INTEGER_CONVERT" description="COM_FLEXIMPORT_FIELD_MONETARY_INTEGER_CONVERT_DESC" />
+			</fieldset>
+		</fields>
+	</form>
+</install>
