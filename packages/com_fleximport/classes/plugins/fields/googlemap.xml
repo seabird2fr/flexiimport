@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="fleximport_field">
+	<name>GoogleMap</name>
+	<author>seabird</author>
+	<creationDate>Octobre 2017</creationDate>
+	<copyright>(C) </copyright>
+	<license>Free</license>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>GoogleMap field plugin model for flexIMPORT</description>
+	<form>
+		<fields name="params">
+			<fieldset name="fleximport">
+			<field type="spacer" label="champs csv => addr_display::addr1::city::lat::lon::province::zip::country" />
+				<field name="googlemap_separator" type="text" default="::" label="COM_FLEXIMPORT_FIELD_GOOGLEMAP_SEPARATOR" description="COM_FLEXIMPORT_FIELD_GOOGLEMAP_SEPARATOR_DESC" />
+			
+				
+			</fieldset>
+		</fields>
+	</form>
+</install>
