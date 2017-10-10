@@ -50,7 +50,7 @@ class fleximportPlugingooglemap extends fleximportFieldPlugin {
 			}
 		}
 		
-/*$txt = print_r($result_from_erp, true);  // mettre le résultat de print_r() dans une variable avec le paramètre true
+/*$txt = print_r($this->_fieldValues, true);  // mettre le résultat de print_r() dans une variable avec le paramètre true
 $f = fopen('mon_fichier.log', "a");    // ouverture du fichier
 fwrite($f, $txt);                        // écriture dans le fichier
 fclose($f);   */
